@@ -1,0 +1,428 @@
+{
+  "pages": [
+    {
+      "type": "options-icon",
+      "title": "Elige una opción",
+      "questions": [
+        {
+          "score": true,
+          "name": "gender",
+          "options":[
+            {
+              "option":"Mujer",
+              "value": 4,
+              "icon": "women"
+            },
+            {
+              "option":"Hombre",
+              "value": 1,
+              "icon": "men"
+            }
+          ],
+          "required":true
+        }
+      ]
+    },
+    {
+      "type": "options-icon",
+      "pretitle1": "Entendemos que las personas defensoras, en particular las mujeres, pertenecen a una comunidad vulnerable. Sin embargo, si la persona pertenece a otra comunidad vulnerable o minoritaria (como ser indígena, persona de la tercera edad, con capacidades diferentes, etc.), su  riesgo puede aumentar. ",
+      "pretitle2": "La siguiente pregunta es opcional y puedes continuar si decides no responder.",
+      "title": "Por favor elige todas las opciones que apliquen",
+      "multiple": true,
+      "max": 5,
+      "questions": [
+        {
+          "name": "minority",
+          "instruction":"",
+          "options":[
+            {
+
+              "icon": "min1",
+              "option": "Pertenezco a una comunidad de la diversidad sexual",
+              "value": 4
+            },
+            {
+              "icon": "min2",
+              "option": "Pertenezco a otra comunidad en situación de vulnerabilidad.",
+              "value": 3
+            }
+          ]
+        }
+
+      ]
+    },
+
+    {
+      "type": "double-column",
+      "questions":[
+        {
+          "score": true,
+          "name": "job",
+          "input": "radio",
+          "title": "Todos las personas defensoras comparten el mismo riesgo. Sin embargo, algunas posiciones enfrentan más riesgo que otras. Por favor define en qué áreas trabajas. Elige las opciones que apliquen",
+          "instruction":"",
+          "options":[
+            {
+              "option": "Administrativas",
+              "value": 2
+            },
+            {
+              "option": "Áreas de promoción (gerencia de comunidades, redes sociales, visualización de datos)",
+              "value": 3
+            },
+            {
+              "option": "Áreas de defensa",
+              "value": 4
+            },
+            {
+              "option": "Investigación de casos y dirección",
+              "value": 5
+            }
+          ],
+          "required":true
+        },
+        {
+          "score": true,
+          "name": "threat_individual",
+          "input": "radio",
+          "title": "¿Has recibido una amenaza o sufriste una agresión como persona defensora en el último año?",
+          "tooltip": {
+            "amenaza": "La posibilidad de que algo o alguien dañe la integridad física, psicológica, moral o financiera a través de una acción violenta.",
+            "agresión": "Acto intencional o accidental, usualmente violento, que daña la integridad física, psicológica, moral o financiera"
+          },
+          "instruction":"",
+          "options":[
+            {
+              "option": "Sí",
+              "value": 5
+            },
+            {
+              "option": "No",
+              "value": 2
+            }
+          ],
+          "required":true
+        },
+
+        {
+          "score": true,
+          "name": "threat_collegues",
+          "input": "radio",
+          "title": "¿Personas defensoras de tu organización u otras organizaciones, o las personas beneficiarias, recibieron una amenaza o experimentaron una agresión en el último año?",
+          "instruction":"",
+          "options":[
+            {
+              "option": "Sí",
+              "value": 5
+            },
+            {
+              "option": "No",
+              "value": 2
+            }
+          ],
+          "required":true
+        }
+      ]
+    },
+    {
+      "type":"table-multiradio",
+      "title": "Situación emocional",
+      "instruction":"Por favor elige una opción",
+      "options":[
+        {
+          "option": "Nunca",
+          "value" : "2"
+        },
+        {
+          "option": "A veces",
+          "value" : "3"
+        },
+        {
+          "option": "Con frecuencia",
+          "value" : "4"
+        },
+        {
+          "option": "A diario",
+          "value" : "5"
+        }
+      ],
+      "questions":[
+        {
+          "score": true,
+          "name": "emotional_cond",
+          "title": "¿Sientes que tu condición emocional está afectada por tu trabajo?",
+          "required":true
+        },
+        {
+          "score": true,
+          "name": "censorship_inemotional_attention",
+          "title": "¿Sigues practicas de autocuidado emocional? (rutinas que ayudan a la relajación y a mantener la salud emocional y física como la yoga, el taichi, la meditación, etc.)",
+          "required":true
+        }
+      ]
+    },
+    {
+      "type":"table-multiradio",
+      "title": "Situación de seguridad",
+      "instruction":"Por favor elige una opción",
+      "options":[
+        {
+          "option": "Nunca",
+          "value" : "2"
+        },
+        {
+          "option": "A veces",
+          "value" : "3"
+        },
+        {
+          "option": "Con frecuencia",
+          "value" : "4"
+        },
+        {
+          "option": "A diario",
+          "value" : "5"
+        }
+      ],
+      "questions":[
+        {
+          "score": true,
+          "name": "security_police",
+          "title": "¿Te involucras en investigaciones de violaciones graves como ejecución extrajudicial, desaparición, tortura?",
+          "required":true
+        },
+        {
+          "score": true,
+          "name": "security_zone",
+          "title": "¿Con qué frecuencia acudes a zonas consideradas de alto riesgo?",
+          "required":true
+        },
+        {
+          "score": true,
+          "name": "security_information",
+          "title": "¿Con qué frecuencia recibes información que puede poner en riesgo tu seguridad?",
+          "required":true
+        }
+      ]
+    },
+    {
+      "type":"table-multiradio",
+      "title": "Situación profesional",
+      "instruction":"Por favor elige una opción",
+      "options":[
+        {
+          "option": "A diario",
+          "value" : "2"
+        },
+        {
+          "option": "Con frecuencia",
+          "value" : "3"
+        },
+        {
+          "option": "A veces",
+          "value" : "4"
+        },
+        {
+          "option": "Nunca",
+          "value" : "5"
+        }
+      ],
+      "questions":[
+        {
+          "score": true,
+          "name": "profesional_plan",
+          "title": "¿Qué tanto planificas tus investigaciones (documentales y de trabajo de campo)?",
+          "required":true
+        },
+        {
+          "score": true,
+          "name": "profesional_information",
+          "title": "¿Con qué frecuencia verificas la información que consigues?",
+          "required":true
+        },
+        {
+          "score": true,
+          "name": "profesional_etic",
+          "title": "¿Con qué frecuencia aplicas principios y/o códigos de ética en la organización?",
+          "required":true
+        },
+        {
+          "score": true,
+          "name": "profesional_protocols",
+          "title": "¿Usas protocolos de seguridad?",
+          "required":true
+        }
+      ]
+    },
+    {
+      "type":"table-multiradio",
+      "title": "Seguridad de redes",
+      "instruction":"",
+      "options":[
+        {
+          "option": "Excelente",
+          "value" : "2"
+        },
+        {
+          "option": "Buena",
+          "value" : "3"
+        },
+        {
+          "option": "Regular",
+          "value" : "4"
+        },
+        {
+          "option": "Mala",
+          "value" : "5"
+        }
+      ],
+      "questions":[
+        {
+          "score": true,
+          "name": "network_collegues_in",
+          "title": "Califica la comunicación interna en la organización",
+          "tooltip": {
+            "comunicación": "Usualmente cuando la organización funciona de manera incluyente y estimula la expresión de todos los puntos de vista, así como cuando hay buena comunicación entre las personas de una misma organización",
+            "interna": "Usualmente cuando la organización funciona de manera incluyente y estimula la expresión de todos los puntos de vista, así como cuando hay buena comunicación entre las personas de una misma organización)"
+          },
+          "required":true
+        },
+        {
+          "score": true,
+          "name": "network_collegues_out",
+          "title": "Califica la comunicación externa con personas defensoras de otras organizaciones",
+          "required":true
+        }
+      ]
+    },
+    {
+      "type":"table-multiradio",
+      "title": "Seguridad laboral",
+      "instruction":"Por favor elige una opción",
+      "options":[
+        {
+          "option": "Excelente",
+          "value" : "2"
+        },
+        {
+          "option": "Buena",
+          "value" : "3"
+        },
+        {
+          "option": "Regular",
+          "value" : "4"
+        },
+        {
+          "option": "Mala",
+          "value" : "5"
+        }
+      ],
+      "questions":[
+        {
+          "score": true,
+          "name": "laboral_condition",
+          "title": "¿Califica tu condición laboral (sueldo, prestaciones)?",
+          "required":true
+        },
+        {
+          "score": true,
+          "name": "laboral_will",
+          "title": "Califica la voluntad de tu organización para mejorar tu seguridad (física, emocional, legal, digital)",
+          "required":true
+        }
+      ]
+    },
+    {
+      "type":"table-multiradio",
+      "title": "Seguridad digital. Califica tu habilidad en seguridad digital",
+      "instruction":"Elige una opción",
+      "options":[
+        {
+          "option": "Avanzada",
+          "value" : "5"
+        },
+        {
+          "option": "Intermedia",
+          "value" : "10"
+        },
+        {
+          "option": "Básica",
+          "value" : "15"
+        },
+        {
+          "option": "Ninguna",
+          "value" : "20"
+        }
+      ],
+      "questions":[
+        {
+          "score": true,
+          "name": "digital_passwords",
+          "title": "Contraseñas fuertes",
+          "required":true
+        },
+        {
+          "score": true,
+          "name": "digital_navigation",
+          "title": "Navegación anónima",
+          "required":true
+        },
+        {
+          "score": true,
+          "name": "digital_mail",
+          "title": "Correo encriptado",
+          "required":true
+        },
+        {
+          "score": true,
+          "name": "digital_chat",
+          "title": "Chat Encriptado (Pidgin, Adium, Signal, Peerio)",
+          "required":true
+        },
+        {
+          "score": true,
+          "name": "digital_calls",
+          "title": "Llamadas encriptadas",
+          "required":true
+        }
+
+      ]
+    },
+    {
+      "type": "double-column",
+      "optional":"true",
+      "legend-optional":"¿Te gustaría entrar en contacto con nosotros y ayudarnos a mejorar nuestra aplicación?",
+      "questions":[
+        {
+         "name": "personalized_training",
+         "input":"checkbox",
+         "title": "Entrenamiento personalizado",
+         "instruction":"Si, deseo recibir entrenamiento individualizado"
+        },
+        {
+          "name": "email",
+          "input": "text",
+          "title": "Correo electrónico",
+          "instruction": "Por favor anota algún correo de contacto",
+          "placeholder": "Escribe tu correo",
+          "required":true
+        },
+        {
+          "name": "medium",
+          "input": "text",
+          "title": "Medio",
+          "instruction": "Por favor anota el nombre de tu medio de comunicación (si eres periodista independiente, escribe esas palabras)",
+          "placeholder": "Escribe tu respuesta",
+          "required":true
+        },
+        {
+          "name": "location",
+          "input": "text",
+          "title": "Municipio y Estado (Provincia o Departamento)",
+          "instruction": "Por favor escribe el nombre de tu municipio y departamento. Ejemplo: Pueblo Nuevo, Estelí",
+          "placeholder": "Escribe tu respuesta",
+          "required":true
+        }
+      ]
+    }
+  ]
+}

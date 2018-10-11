@@ -200,6 +200,16 @@
     "path": "sinformation"
   },
   {
+    "language": "es_MX",
+    "date": "2019-09-21 14:50 -0600",
+    "author": "a.",
+    "description": "Terminos y condiciones.",
+    "category": "otros",
+    "published": true,
+    "title": "Terminos",
+    "path": "terms"
+  },
+  {
     "language": "ar_AE",
     "date": "2016-03-21 15:39 -0600",
     "author": "author",
@@ -420,6 +430,16 @@
     "path": "network"
   },
   {
+    "language": "es_MX",
+    "date": "2019-09-21 14:50 -0600",
+    "author": "a.",
+    "description": "Quienes somos.",
+    "category": "otros",
+    "published": true,
+    "title": "ours",
+    "path": "ours"
+  },
+  {
     "language": "en_US",
     "date": "2016-03-13 10:48 -0600",
     "author": "author",
@@ -440,6 +460,16 @@
     "path": "plan"
   },
   {
+    "language": "es_MX",
+    "date": "2019-09-21 14:50 -0600",
+    "author": "a.",
+    "description": "policy.",
+    "category": "otros",
+    "published": true,
+    "title": "Privacy Policy",
+    "path": "policy"
+  },
+  {
     "language": "en_US",
     "date": "2016-03-13 12:32 -0600",
     "author": "author",
@@ -458,6 +488,16 @@
     "published": true,
     "title": "You must be prepared for handling sensitive information",
     "path": "sinformation"
+  },
+  {
+    "language": "es_MX",
+    "date": "2019-09-21 14:50 -0600",
+    "author": "a.",
+    "description": "Terminos y condiciones.",
+    "category": "otros",
+    "published": true,
+    "title": "Terminos",
+    "path": "terms"
   },
   {
     "language": "en_US",
@@ -518,6 +558,54 @@
     "published": true,
     "title": "Be prepared for dangerous zones",
     "path": "zone_protocols"
+  },
+  {
+    "language": "es_MX",
+    "date": "2018-09-19 21:51 -0500",
+    "published": true,
+    "description": "Abusos.",
+    "title": "Abusos",
+    "path": "2018-09-19-abusos"
+  },
+  {
+    "language": "es_MX",
+    "date": "2018-09-19 20:10 -0500",
+    "published": true,
+    "description": "Ambiente hostil.",
+    "title": "Ambiente hostil",
+    "path": "2018-09-19-ambiente-hostil"
+  },
+  {
+    "language": "es_MX",
+    "date": "2018-09-19 21:47 -0500",
+    "published": true,
+    "description": "Autocuidado.",
+    "title": "Autocuidado ",
+    "path": "2018-09-19-autocuidado"
+  },
+  {
+    "language": "es_MX",
+    "date": "2018-09-19 21:39 -0500",
+    "published": true,
+    "description": "Diversidad.",
+    "title": "Diversidad",
+    "path": "2018-09-19-diversidad"
+  },
+  {
+    "language": "es_MX",
+    "date": "2018-09-19 19:53 -0500",
+    "published": true,
+    "description": "Vulnerables.",
+    "title": "Vulnerables",
+    "path": "2018-09-19-vulnerables"
+  },
+  {
+    "language": "es_MX",
+    "date": "2018-09-19 19:47 -0500",
+    "published": true,
+    "description": "Mujeres.",
+    "title": "Mujeres",
+    "path": "2018-09-19-women"
   },
   {
     "language": "es_MX",
@@ -681,6 +769,16 @@
   },
   {
     "language": "es_MX",
+    "date": "2019-09-21 14:50 -0600",
+    "author": "a.",
+    "description": "Quienes somos.",
+    "category": "otros",
+    "published": true,
+    "title": "Somos",
+    "path": "ours"
+  },
+  {
+    "language": "es_MX",
     "date": "2016-03-13 10:48 -0600",
     "author": "author",
     "description": "Contraseñas seguras",
@@ -701,6 +799,16 @@
   },
   {
     "language": "es_MX",
+    "date": "2019-09-21 14:50 -0600",
+    "author": "a.",
+    "description": "politicas de privacidad.",
+    "category": "otros",
+    "published": true,
+    "title": "Politicas",
+    "path": "policy"
+  },
+  {
+    "language": "es_MX",
     "date": "2016-03-13 12:32 -0600",
     "author": "autor",
     "description": "Situación profesional",
@@ -718,6 +826,16 @@
     "published": true,
     "title": "¿Estás listo para manejar información sensible?",
     "path": "sinformation"
+  },
+  {
+    "language": "es_MX",
+    "date": "2019-09-21 14:50 -0600",
+    "author": "a.",
+    "description": "Terminos y condiciones.",
+    "category": "otros",
+    "published": true,
+    "title": "Terminos",
+    "path": "terms"
   },
   {
     "language": "es_MX",

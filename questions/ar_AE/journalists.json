@@ -1,0 +1,467 @@
+{
+  "pages": [
+    {
+      "type": "options-icon",
+      "title": "Elige una opción",
+      "questions": [
+        {
+          "score": true,
+          "name": "gender",
+          "options":[
+            {
+              "option":"Mujer",
+              "value": 4,
+              "icon": "women"
+            },
+            {
+              "option":"Hombre",
+              "value": 1,
+              "icon": "men"
+            }
+          ],
+          "required":true
+        }
+      ]
+    },
+    {
+      "type": "options-icon",
+      "pretitle1": "Entendemos que, en ocasiones, la pertenencia a comunidades minoritarias o vulnerables puede aumentar el riesgo.",
+      "pretitle2": "La siguiente pregunta es opcional y puedes continuar si decides no responder.",
+      "title": "Por favor elige las opciones que apliquen",
+      "multiple": true,
+      "max": 4,
+      "questions": [
+        {
+          "name": "minority",
+          "instruction":"",
+          "options":[
+            {
+
+              "icon": "min1",
+              "option": "Pertenezco a una comunidad de la diversidad sexual",
+              "value": 3
+            },
+            {
+              "icon": "min2",
+              "option": "Pertenezco a una comunidad vulnerable",
+              "value": 2
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "type": "double-column",
+      "questions":[
+        {
+          "score": true,
+          "name": "job",
+          "input": "radio",
+          "title": "Todos los periodistas o personas empleadas por un medio comparten el mismo riesgo. Sin embargo, algunas posiciones enfrentan más riesgo que otras. Por favor define en qué áreas trabajas. Elige las opciones que apliquen.",
+          "instruction":"",
+          "options":[
+            {
+              "option": "Áreas no editoriales (producción, comercialización, circulación)",
+              "value": 2
+            },
+            {
+              "option": "Edición (Textos, multimedia, gerencia de comunidades, análisis de datos, diseño)",
+              "value": 3
+            },
+            {
+              "option": "Dirección",
+              "value": 4
+            },
+            {
+              "option": "Reportería o fotografía",
+              "value": 5
+            }
+          ],
+          "required":true
+        },
+        {
+          "score": true,
+          "name": "threat_individual",
+          "input": "radio",
+          "title": "¿Has recibido una amenaza o sufriste una agresión como periodista en el último año?",
+          "instruction":"",
+          "options":[
+            {
+              "option": "Sí",
+              "value": 4
+            },
+            {
+              "option": "No",
+              "value": 1
+            }
+          ],
+          "required":true
+        },
+
+        {
+          "score": true,
+          "name": "threat_collegues",
+          "input": "radio",
+          "title": " ¿Colegas de tu medio o de otros medios en tu municipio, estado o región, recibieron una amenaza o experimentaron una agresión en el último año?",
+          "instruction":"",
+          "options":[
+            {
+              "option": "Sí",
+              "value": 1
+            },
+            {
+              "option": "No",
+              "value": 4
+            }
+          ],
+          "required":true
+        }
+      ]
+    },
+    {
+      "type":"table-multiradio",
+      "title": "Situación emocional",
+      "instruction":"Por favor elige una opción",
+      "options":[
+        {
+          "option": "A diario",
+          "value" : "4"
+        },
+        {
+          "option": "Con frecuencia",
+          "value" : "3"
+        },
+        {
+          "option": "A veces",
+          "value" : "2"
+        },
+        {
+          "option": "Nunca",
+          "value" : "1"
+        }
+      ],
+      "questions":[
+        {
+          "score": true,
+          "name": "emotional_cond",
+          "title": "¿Sientes que tu condición emocional está afectada por tu trabajo?",
+          "required":true
+        },
+        {
+          "score": true,
+          "name": "emotional_attention",
+          "title": "¿Sigues practicas de autocuidado emocional? (meditación, yoga, terapia psicológica, etcétera)",
+          "required":true
+        }
+      ]
+    },
+    {
+      "type":"table-multiradio",
+      "title": "Situación de seguridad",
+      "instruction":"Por favor elige una opción",
+      "options":[
+        {
+          "option": "Nunca",
+          "value" : "2"
+        },
+        {
+          "option": "A veces",
+          "value" : "3"
+        },
+        {
+          "option": "Con frecuencia",
+          "value" : "4"
+        },
+        {
+          "option": "A diario",
+          "value" : "5"
+        }
+      ],
+      "questions":[
+        {
+          "score": true,
+          "name": "security_police",
+          "title": "¿Cubres notas de policía y crimen?",
+          "required":true
+        },
+        {
+          "score": true,
+          "name": "security_corruption",
+          "title": "¿Cubre hechos de corrupción?",
+          "required":true
+        },
+        {
+          "score": true,
+          "name": "security_zone",
+          "title": "¿Con qué frecuencia acudes a zonas consideradas de alto riesgo?",
+          "required":true
+        },
+        {
+          "score": true,
+          "name": "security_information",
+          "title": "¿Con qué frecuencia recibes información que puede poner en riesgo tu seguridad?",
+          "required":true
+        }
+      ]
+    },
+    {
+      "type":"table-multiradio",
+      "title": "Situación de censura",
+      "instruction":"Por favor elige una opción",
+      "options":[
+        {
+          "option": "Nunca",
+          "value" : "1"
+        },
+        {
+          "option": "A veces",
+          "value" : "2"
+        },
+        {
+          "option": "Con frecuencia",
+          "value" : "3"
+        },
+        {
+          "option": "A diario",
+          "value" : "4"
+        }
+      ],
+      "questions":[
+        {
+          "score": true,
+          "name": "censorship_out",
+          "title": "¿Recibes presiones externas para censurar tu información?",
+          "required":true
+        },
+        {
+          "score": true,
+          "name": "censorship_in",
+          "title": "¿Recibes presiones internas para censurar tu información?",
+          "required":true
+        },
+        {
+          "score": true,
+          "name": "censorship_auto",
+          "title": "¿Practicas autocensura?",
+          "required":true
+        }
+      ]
+    },
+    {
+      "type":"table-multiradio",
+      "title": "Situación profesional",
+      "instruction":"",
+      "options":[
+        {
+          "option": "Siempre",
+          "value" : "1"
+        },
+        {
+          "option": "Con frecuencia",
+          "value" : "2"
+        },
+        {
+          "option": "A veces",
+          "value" : "3"
+        },
+        {
+          "option": "Nunca",
+          "value" : "4"
+        }
+      ],
+      "questions":[
+        {
+          "score": true,
+          "name": "profesional_plan",
+          "title": "¿Qué tanto planificas tus investigaciones?",
+          "required":true
+        },
+        {
+          "score": true,
+          "name": "profesional_information",
+          "title": "¿Con qué frecuencia verificas la información que consigues?",
+          "required":true
+        },
+        {
+          "score": true,
+          "name": "profesional_etic",
+          "title": "¿Con qué frecuencia utilizas los valores éticos del periodismo antes de publicar la información que consigues?",
+          "required":true
+        },
+        {
+          "score": true,
+          "name": "profesional_protocols",
+          "title": "¿Usas protocolos de seguridad?",
+          "required":true
+        }
+      ]
+    },
+    {
+      "type":"table-multiradio",
+      "title": "Seguridad de redes",
+      "instruction":"",
+      "options":[
+        {
+          "option": "Excelente",
+          "value" : "1"
+        },
+        {
+          "option": "Buena",
+          "value" : "2"
+        },
+        {
+          "option": "Regular",
+          "value" : "3"
+        },
+        {
+          "option": "Mala",
+          "value" : "4"
+        }
+      ],
+      "questions":[
+        {
+          "score": true,
+          "name": "network_collegues_in",
+          "title": "Califica la comunicación interna en tu medio",
+          "required":true
+        },
+        {
+          "score": true,
+          "name": "network_collegues_out",
+          "title": "Califica la comunicación externa con colegas de otros medios",
+          "required":true
+        }
+      ]
+    },
+    {
+      "type":"table-multiradio",
+      "title": "Seguridad laboral",
+      "instruction":" Por favor elige una opción",
+      "options":[
+        {
+          "option": "Excelente",
+          "value" : "1"
+        },
+        {
+          "option": "Buena",
+          "value" : "2"
+        },
+        {
+          "option": "Regular",
+          "value" : "3"
+        },
+        {
+          "option": "Mala",
+          "value" : "4"
+        }
+      ],
+      "questions":[
+        {
+          "score": true,
+          "name": "laboral_condition",
+          "title": "¿Califica tu condición laboral (sueldo, prestaciones)?",
+          "required":true
+        },
+        {
+          "score": true,
+          "name": "laboral_will",
+          "title": "Califica la voluntad de tu organización para mejorar tu seguridad",
+          "required":true
+        }
+      ]
+    },
+    {
+      "type":"table-multiradio",
+      "title": "Seguridad digital. Califica tu habilidad en seguridad digital",
+      "instruction":"Elige una opción",
+      "options":[
+        {
+          "option": "Avanzada",
+          "value" : "5"
+        },
+        {
+          "option": "Intermedia",
+          "value" : "10"
+        },
+        {
+          "option": "Básica",
+          "value" : "15"
+        },
+        {
+          "option": "Ninguna",
+          "value" : "20"
+        }
+      ],
+      "questions":[
+        {
+          "score": true,
+          "name": "digital_passwords",
+          "title": "Contraseñas fuertes",
+          "required":true
+        },
+        {
+          "score": true,
+          "name": "digital_navigation",
+          "title": "Navegación anónima",
+          "required":true
+        },
+        {
+          "score": true,
+          "name": "digital_mail",
+          "title": "Correo encriptado",
+          "required":true
+        },
+        {
+          "score": true,
+          "name": "digital_chat",
+          "title": "Chat Encriptado (Pidgin, Adium, Signal, Peerio)",
+          "required":true
+        },
+        {
+          "score": true,
+          "name": "digital_calls",
+          "title": "Llamadas encriptadas",
+          "required":true
+        }
+      ]
+    },
+    {
+      "type": "double-column",
+      "optional":"true",
+      "legend-optional":"¿Te gustaría ayudarnos a mejorar la encuesta?",
+      "questions":[
+        {
+         "name": "personalized_training",
+         "input":"checkbox",
+         "title": "Entrenamiento personalizado",
+         "instruction":"Si, deseo recibir entrenamiento individualizado"
+        },
+        {
+          "name": "email",
+          "input": "text",
+          "title": "Correo electrónico",
+          "instruction": "Por favor anota algún correo de contacto",
+          "placeholder": "Escribe tu correo",
+          "required":true
+        },
+        {
+          "name": "medium",
+          "input": "text",
+          "title": "Medio",
+          "instruction": "Por favor anota el nombre de tu medio de comunicación (si eres periodista independiente, escribe esas palabras)",
+          "placeholder": "Escribe tu respuesta",
+          "required":true
+        },
+        {
+          "name": "location",
+          "input": "text",
+          "title": "Municipio y Estado (Provincia o Departamento)",
+          "instruction": "Por favor escribe el nombre de tu municipio y departamento. Ejemplo: Pueblo Nuevo, Estelí",
+          "placeholder": "Escribe tu respuesta",
+          "required":true
+        }
+      ]
+    }
+  ]
+}
